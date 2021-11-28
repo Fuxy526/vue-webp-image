@@ -1,6 +1,6 @@
 {
   "name": "vue-webp-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A vue directive help check browser webp support and use the appropriate image format.",
   "main": "dist/vue-webp-image.js",
   "scripts": {
