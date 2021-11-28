@@ -78,6 +78,6 @@ Vue.use(VueWebpImage);
 
 ```html
 <div
-  webp:bgs="['require('./assets/image.webp')', 'require('./assets/image.jpg')']"
+  webp:bgs="[require('./assets/image.webp'), require('./assets/image.jpg')]"
 ></div>
 ```
