@@ -44,27 +44,27 @@ Vue.use(VueWebpImage);
 
 #### Component
 
-- webp:src - use with `img` tag
+- `v-webp:src` - use with `img` tag
 
 ```html
 <!-- local image -->
 <img
-  webp:src="require('./assets/image.webp')"
+  v-webp:src="require('./assets/image.webp')"
   :src="require('./assets/image.jpg')"
 />
 <!-- online image -->
 <img
-  webp:src="'https://www.xxx.com/image.webp'"
+  v-webp:src="'https://www.xxx.com/image.webp'"
   :src="'https://www.xxx.com/image.jpg'"
 />
 ```
 
-- webp:bg - use css `background-image` property
+- `v-webp:bg` - use css `background-image` property
 
 ```html
 <div
   class="bg-container"
-  webp:bg="require('./assets/image.webp')"
+  v-webp:bg="require('./assets/image.webp')"
 ></div>
 
 <style>
@@ -74,10 +74,10 @@ Vue.use(VueWebpImage);
 </style>
 ```
 
-- webp:bgs - use css `background-image` property (put webp source and original source in an array)
+- `v-webp:bgs` - use css `background-image` property (put webp source and original source in an array)
 
 ```html
 <div
-  webp:bgs="[require('./assets/image.webp'), require('./assets/image.jpg')]"
+  v-webp:bgs="[require('./assets/image.webp'), require('./assets/image.jpg')]"
 ></div>
 ```
